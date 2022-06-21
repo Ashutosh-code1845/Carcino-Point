@@ -25,7 +25,7 @@ def cancer_predict(input_data):
 def main():
     # giving title
     st.title('ChemoWave')
-    st.write('Hosted for Educational Purpose  [Github](https://github.com/Ashutosh-code1845/Qardio-Point)')
+    st.write('Hosted for Educational Purpose  [Github](https://github.com/Ashutosh-code1845/ChemoWave/tree/master)')
     # getting data from user
     radius_mean = st.text_input("Enter the value of Mean Radius: ")
     texture_mean = st.text_input("Enter the value of Mean Texture: ")
